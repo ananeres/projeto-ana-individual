@@ -1,0 +1,188 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    position: fixed;
+    justify-content: center;
+    width: 100%;
+    background-color: #9462129f;
+    padding: 5px;
+}
+
+ul {
+    display: flex;
+    gap: 40px;
+    list-style-type: none;
+    font-family: Roboto;
+    align-items: baseline;
+    justify-content: space-evenly;
+}
+
+a {
+    color: #f5f4f3;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 20px;
+    font-style: normal;
+    text-decoration: none;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    margin: 0;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+h2 {
+    text-align: center;
+}
+
+body {
+    background-image: url(./imagens/fundo.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    height: 100%;
+}
+
+.div-main {
+    display: flex;
+    height: 1000px;
+    justify-content: center;
+}
+
+.inicio {
+    padding: 0 70px;
+    border-radius: 80px;
+    background-color: #946212c5;
+    color: white;
+}
+
+.div-footer {
+    margin-bottom: 40px;
+}
+
+.fix-footer {
+    bottom: 0;
+    left: 0;
+    height: 40px;
+    width: 100%;
+}
+
+.a-footer {
+    color: #d96319;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 15px;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.button-back {
+    color: #996106c5;
+    font-size: medium;
+    text-decoration: underline;
+}
+
+.content-h2 {
+    width: 100%;
+    padding-bottom: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    color: #996106c5;
+}
+
+h2 {
+    border-radius: 100px;
+    padding: 0 15px;
+    background-color: #996106c5;
+    color: white;
+}
+
+table {
+    border-collapse: collapse;
+    background-color: #f1f1f1b6;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+td {
+    border: 3px solid #996106c5;
+    border-style: dotted;
+    font-size: 18px;
+}
+
+.espaçamento-texto-td {
+    padding: 10px;
+}
+
+img {
+    height: 100%;
+    padding: 15px 15px 10px 15px;
+}
+
+.td-preco {
+    width: 100px;
+}
+
+.td-alinhamento {
+    text-align: center;
+}
+
+.td-fonte {
+    font-weight: bold;
+}
+
+.content-form {
+    width: 400px;
+    margin: 150px auto;
+    padding: 70px;
+    text-align: center;
+    display: flex;
+    font-size: xx-large;
+    background-color: #996106c5;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.button-cadastro {
+    background-color: #f0f7f0;
+    color: #996106c5;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.753);
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.div-politica,
+.div-termos {
+    text-align: center;
+    background-color: #f1f1f1b6;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    display: flex;
+    width: 100%;
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 70px;
+}
+
